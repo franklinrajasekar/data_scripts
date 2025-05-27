@@ -49,8 +49,3 @@ data = data.drop_duplicates()
 
 engine = connect_and_fetch_info()
 append_to_table(engine, engine.connect(), data)
-
-
-
-
-
